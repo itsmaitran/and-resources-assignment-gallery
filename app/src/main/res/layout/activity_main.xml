@@ -14,10 +14,18 @@
         <LinearLayout
                 android:id="@+id/left_column"
                 style="@style/VerticalColumn">
+            <ImageView
+                    android:id="@+id/left_image"
+                    style="@style/ImageColumn"
+                    android:src="@drawable/afterglow_beach_cliff_2555285"/>
         </LinearLayout>
         <LinearLayout
                 android:id="@+id/right_column"
                 style="@style/VerticalColumn">
+            <ImageView
+                    android:id="@+id/right_image"
+                    style="@style/ImageColumn"
+                    android:src="@drawable/clouds_coconut_trees_daylight_2486168"/>
         </LinearLayout>
     </LinearLayout>
 
