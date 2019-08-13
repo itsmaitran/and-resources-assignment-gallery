@@ -17,7 +17,8 @@
             <ImageView
                     android:id="@+id/left_image"
                     style="@style/ImageView"
-                    android:src="@drawable/afterglow_beach_cliff_2555285"/>
+                    android:src="@drawable/afterglow_beach_cliff_2555285"
+                    android:contentDescription="@string/cliff"/>
         </LinearLayout>
         <LinearLayout
                 android:id="@+id/right_column"
@@ -25,7 +26,8 @@
             <ImageView
                     android:id="@+id/right_image"
                     style="@style/ImageView"
-                    android:src="@drawable/clouds_coconut_trees_daylight_2486168"/>
+                    android:src="@drawable/clouds_coconut_trees_daylight_2486168"
+                    android:contentDescription="@string/trees"/>
         </LinearLayout>
     </LinearLayout>
 
